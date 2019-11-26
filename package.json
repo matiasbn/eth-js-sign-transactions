@@ -1,14 +1,15 @@
 {
-  "name": "es6-boilerplate",
+  "name": "eth-js-signing-transactions",
   "version": "1.2.0",
-  "description": "Boilerplate",
+  "description": "Signing customized transactions",
   "main": "index.js",
-  "repository": "git@github.com:matiasbn/es6-boilerplate.git",
+  "repository": "git@bitbucket.org:cryptopipol/eth-js-signing-transactions.git",
   "author": "Matías Barrios",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start:dev": "nodemon --watch .env --watch src --exec babel-node src --source-maps",
+    "dev": "ganache-cli -i 0x7 && truffle deploy",
+    "start": "nodemon --watch .env --watch src --exec babel-node src --source-maps",
     "lint": "eslint src/**/*.js --fix && echo Lint passed ❤",
     "clean": "rimraf dist && mkdir dist",
     "prebuild": "npm run clean && cp package.json yarn.lock dist",
@@ -23,6 +24,7 @@
     "ganache-cli": "^6.7.0",
     "pino": "^5.13.6",
     "pino-pretty": "^3.4.0",
+    "truffle": "^5.1.1",
     "web3": "^1.2.4"
   },
   "devDependencies": {

@@ -7,13 +7,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* signing transactions to send ether ([18eb7b1](https://github.com/matiasbn/es6-boilerplate/commit/18eb7b1))
-* simple-contract created ([6814e18](https://github.com/matiasbn/es6-boilerplate/commit/6814e18))
-* truffle initiated ([dfc4d09](https://github.com/matiasbn/es6-boilerplate/commit/dfc4d09))
+* signing transactions to send ether ([18eb7b1](https://bitbucket.org/cryptopipol/eth-js-signing-transactions/commits/18eb7b1))
+* simple-contract created ([6814e18](https://bitbucket.org/cryptopipol/eth-js-signing-transactions/commits/6814e18))
+* truffle initiated ([dfc4d09](https://bitbucket.org/cryptopipol/eth-js-signing-transactions/commits/dfc4d09))
 
 ## 1.1.0 (2019-11-20)
 
 
 ### Features
 
-* startdev script ([117ff8b](https://github.com/matiasbn/es6-boilerplate/commit/117ff8b))
+* startdev script ([117ff8b](https://bitbucket.org/cryptopipol/eth-js-signing-transactions/commits/117ff8b))
