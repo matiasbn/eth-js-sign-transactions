@@ -1,6 +1,6 @@
 {
   "name": "eth-js-signing-transactions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Signing customized transactions",
   "main": "index.js",
   "repository": "git@bitbucket.org:cryptopipol/eth-js-signing-transactions.git",
